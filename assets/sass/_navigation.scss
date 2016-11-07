@@ -1,0 +1,42 @@
+
+
+/*----------#NAVBAR--------------------------*/
+
+.nav-fixed {
+    @extend .smalltext;
+    position: fixed;
+    top:30%;
+}
+
+.bg-green {
+    background: $green;
+    width: 70px;
+    opacity: 0.7;
+  
+    
+}
+
+
+.bg-yellow {
+    background: $yellow;
+ 
+   
+  
+    
+}
+
+
+.numberCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: auto;
+    
+    @include breakpoint ($min: xl) {
+        width: 43px;
+        height: 43px;
+    }
+    
+    padding: 8px;
+    border: 2px solid $black;
+}
