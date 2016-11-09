@@ -31,6 +31,20 @@
         margin: 5px;
     }
 
+   /*------------------------------------*\
+  #BODY
+\*------------------------------------*/
+    
+    body {
+        min-height: 100%;
+        height: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        @extend .text;
+    }
+
+
+
     /*------------------------------------*\
   #COLOR_SECTIONS
 \*------------------------------------*/
@@ -151,19 +165,7 @@
     .testelinks{
         color:#4ca7af;
     }
-    /*------------------------------------*\
-  #BODY
-\*------------------------------------*/
-    
-    body {
-        min-height: 100%;
-        height: auto;
-        //background-color:$light;
-       // color: $black;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        @extend .text;
-    }
+ 
     /*------------------------------------*\
   #LINKS
 \*------------------------------------*/
