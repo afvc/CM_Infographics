@@ -177,13 +177,10 @@
         cursor: pointer;
         &:hover {
             text-decoration: none;
-            opacity: 0.7;
+            color:$white;
         }
     }
-
-    .gitpad{
-        padding:0;
-    }
+ 
 
 
     /*------------------------------------*\
