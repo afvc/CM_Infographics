@@ -97,8 +97,8 @@ tasks.sass = function() {
     .pipe(bulkSass())
     .pipe(sass({
       importer: moduleImporter(),
-      sourceComments: !production,
-      outputStyle: production ? 'compressed' : 'nested'
+      sourceComments: false,
+      outputStyle: 'compact'
     }))
     .on('error', handleError('SASS'))
     // generate .maps
