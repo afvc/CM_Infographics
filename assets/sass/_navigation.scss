@@ -1,41 +1,50 @@
 /*----------#NAVBAR--------------------------*/
 
-
 .nav-fixed {
     @extend .smalltext;
     position: fixed;
     height: 100vh;
     width: 70px;
     /*overflow-y: scroll;*/
-    
     a {
         &:hover {
             color: $white;
         }
     }
-    
     @include breakpoint ($min: sm) {
         height: 10vh;
         width: 100vw;
     }
-    
     @include breakpoint ($min: xs) {
         height: 10vh;
         width: 100vw;
     }
-    
     ul {
         @include breakpoint ($min: xs) {
             margin-left: -7vw;
         }
     }
 }
+
+.bg {
+    margin-left: 70px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+      @include breakpoint ($min: sm) {margin-left:0px;}
+     @include breakpoint ($min: xs) {margin-left:0px;}
+
+
+}
+
 .bg-green {
     background: $green;
 }
+
 .bg-yellow {
+    @extend .bg;
     background: $yellow;
 }
+
 .numberCircle {
     border-radius: 50%;
     width: 36px;
@@ -46,18 +55,15 @@
         width: 43px;
         height: 43px;
     }
-    
     border: 2px solid $black;
     &:hover {
         border: 2px solid $white;
     }
-    
     @include breakpoint ($min: sm) {
         display: inline-table;
         margin: 20px 20px auto 20px;
         padding: 7px;
     }
-    
     @include breakpoint ($min: xs) {
         display: inline-table;
         border-radius: 50%;
