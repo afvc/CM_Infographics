@@ -18,9 +18,8 @@
         overflow-x: hidden;
     }
     
-    html {}
-    
     #HiddenEdu {
+ 
         display: none;
     }
     
@@ -51,9 +50,7 @@
     .section-resized {
         padding-top: 10px;
         padding-bottom: 10px;
-        width: 960px;
-        max-width: 100%;
-        margin: auto;
+       
         @include breakpoint ($min: xs) {
             width: 300px;
             max-width: 100%;
@@ -93,9 +90,11 @@
         margin-bottom: 15px;
         @include breakpoint($min: xs) {
             font-size: map-deep-get($typescale, 'heading1', 'xs');
+            margin-top: 12vh;
         }
         @include breakpoint($min:sm) {
             font-size: map-deep-get($typescale, 'heading1', 'sm');
+             margin-top: 9vh;
         }
         @include breakpoint($min:md) {
             font-size: map-deep-get($typescale, 'heading1', 'md');
