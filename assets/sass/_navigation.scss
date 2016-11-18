@@ -26,24 +26,7 @@
     }
 }
 
-.bg {
-    margin-left: 70px;
-    padding-left: 10vw;
-    padding-right: 10vw;
-      @include breakpoint ($min: sm) {margin-left:0px;}
-     @include breakpoint ($min: xs) {margin-left:0px;}
 
-
-}
-
-.bg-green {
-    background: $green;
-}
-
-.bg-yellow {
-    @extend .bg;
-    background: $yellow;
-}
 
 .numberCircle {
     border-radius: 50%;
