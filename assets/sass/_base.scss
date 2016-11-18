@@ -58,21 +58,23 @@ body {
     }
 }
 
-.bg-green {
+.bg__green {
     background: $green;
 }
 
-.bg-yellow {
+.bg__yellow {
     @extend .bg;
     background: $yellow;
 }
 
-.blue {
+.bg__blue {
+    @extend .bg;
     background: $blue;
     padding: 2vw;
 }
 
-.grey {
+.bg__grey {
+    @extend .bg;
     background: $grey;
     padding: 2vw;
 }
