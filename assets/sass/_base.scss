@@ -70,13 +70,11 @@ body {
 .bg__blue {
     @extend .bg;
     background: $blue;
-    padding: 2vw;
 }
 
 .bg__grey {
     @extend .bg;
     background: $grey;
-    padding: 2vw;
 }
 /*------------------------------------*\
   #COLOR_SECTIONS
