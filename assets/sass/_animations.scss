@@ -1,0 +1,147 @@
+.rotate {
+ 
+     -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.rotate1{
+
+@extend .rotate;
+  transform-origin: 14.5px 25px;
+}
+
+.rotate2{
+
+@include rotation(3200ms);
+  transform-origin: 35.5px 25px;
+}
+
+.rotate3{
+
+@include rotation(3080ms);
+  transform-origin: 56.5px 25px;
+}
+
+.rotate4{
+
+@include rotation(1080ms);
+  transform-origin: 76.5px 25px;
+}
+
+.rotate5{
+
+@extend .rotate;
+  transform-origin: 97.5px 25px;
+}
+
+.rotate6{
+
+@include rotation(3200ms);
+  transform-origin: 118.5px 25px;
+}
+
+.rotate7{
+
+@include rotation(3080ms);
+  transform-origin: 139.5px 25px;
+}
+
+.rotate8{
+
+@include rotation(1080ms);
+  transform-origin: 160.5px 25px;
+}
+
+.rotate9{
+
+@include rotation(3080ms);
+  transform-origin: 180.5px 25px;
+}
+
+.rotate10{
+
+@include rotation(1080ms);
+  transform-origin: 201px 25px;
+}
+
+.rotate11{
+
+@extend .rotate;
+  transform-origin: 222px 25px;
+}
+
+.rotate12{
+
+@include rotation(3200ms);
+  transform-origin: 242px 25px;
+}
+
+.rotate13{
+
+@include rotation(3080ms);
+  transform-origin: 263px 25px;
+}
+
+.rotate14{
+
+@include rotation(1080ms);
+  transform-origin: 283.5px 25px;
+}
+
+
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+svg {
+  #path123 {
+    stroke: #000;
+    stroke-width: 1;
+    stroke-dasharray: 100px;
+    stroke-dashoffset: 100px;
+    animation-name: draw;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 1; // Run only once
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
