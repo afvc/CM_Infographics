@@ -1,6 +1,10 @@
 .z-top{z-index: 10;}
 .z-bottom{z-index: -10;}
 
+.rotate__neg45{
+
+transform: rotate(-60deg);
+}
 
 /*------------------------------------*\
   #TEXT_COLOR
