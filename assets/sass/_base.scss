@@ -25,6 +25,7 @@ body {
 #HiddenHR {
     display: none;
 }
+
 #WarHiddenCauses {
     display: none;
 }
@@ -69,7 +70,6 @@ body {
 }
 
 .bg__warRoom {
-   
     @extend .bg;
     background: rgb(19, 16, 29);
     background-image: url("bg_room.svg");
@@ -77,29 +77,32 @@ body {
     background-repeat: repeat-x;
     background-position: center;
     @include breakpoint ($min: sm) {
-        
         margin-top: 10vh;
     }
     @include breakpoint ($min: xs) {
         margin-left: 0px;
-        
-    } 
+    }
 }
 
 .bg__boxes {
-   padding: 6vh;
+    @include breakpoint ($min: lg) {
+        padding: 6vh;
+    }
+    
+     @include breakpoint ($min: xl) {
+        padding: 8vh;
+    }
+    
     @extend .bg;
-    background: rgb(19, 16, 29);
+    background: rgb(19,16,29);
     background-image: url("box.svg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-     
 }
 
-
 .bg__purple {
-      @extend .bg;  
+    @extend .bg;
     background: rgb(19, 16, 29);
 }
 
@@ -113,7 +116,6 @@ body {
     background: $grey;
 }
 
- 
 
 /*------------------------------------*\
   #COLOR_SECTIONS
@@ -269,6 +271,21 @@ a {
     fill: $light;
 }
 
+.cls-1__small__brown {
+    @extend .cls-1__small;
+    fill: #4d3c17;
+}
+
+.cls-1__small__blue {
+    @extend .cls-1__small;
+    fill: $dblue;
+}
+
+.cls-1__small__purple {
+    @extend .cls-1__small;
+    fill: rgb(19, 16, 29);
+}
+
 .cls-2__small__bg {
     stroke-width: 0;
     @extend .cls-1__small;
@@ -287,20 +304,29 @@ a {
     @extend .fill__opacity;
 }
 
+.fill__opacity__3 {
+    animation-name: fill;
+    animation-duration: 5950ms;
+    @extend .fill__opacity;
+}
+
 
 /*------------------------------------*\
   #icons
 \*------------------------------------*/
 
 .icon-svg {
-    max-width: 70px;
+    max-width: 90px;
     width: 100%;
     height: auto;
-    //margin-right: 2vw;
+    margin: 0 2vw 0 2vw;
+}
+
+.margin__top__neg {
+    margin-top: -8vh;
 }
 
 
- 
 /*------------------------------------*\
   #TABLES
 \*------------------------------------*/

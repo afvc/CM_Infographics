@@ -1,12 +1,34 @@
-$('#HideCauses').click(function () {
-    s = false;
-    if (s == false) {
-        $('#switch').attr('src', 'assets/images/Ativo2.png');
-        s = true;
-    } else {
-        s = false;
-        $('#switch').attr('src', 'assets/images/Ativo2.png')
+/*-----POPUP-----*/
+       $(".server-signed-info-js").on("click", function () {
+      var popup = document.getElementById('server-signed-content-js');
+     popup.classList.toggle('show');
+     })
+   
+     $(".keys-help-popup-js").on("click", function () {
+    var popup = document.getElementById('keys-help-content-js');
+      popup.classList.toggle('show');
+   })
+ });
+
+
+/*-----SWITCH_IMG-----*/
+$('#switch').click(function () {
+    if ($(this).css("transform") == 'none') {
+        $(this).css("transform", "rotate(180deg)");
+        
     }
+    else {
+    $(this).css("transform","none" );
+        
+        
+        $("#HiddenEd").css("display", "none");
+        $("#Education").css("color", "black");
+        $("#Rights").css("color", "black");
+        $("#HiddenHR").css("display", "none");
+  
+
+}
+
 });
 
 /*-----EDUCATION-----*/
