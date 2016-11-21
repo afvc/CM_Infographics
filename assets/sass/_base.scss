@@ -40,7 +40,7 @@ ul li {
     overflow: hidden;
     background: $red;
     display:none;
-    z-index: 1000;
+    z-index: 10000;
     @include breakpoint ($min: sm) {
        display: block;
     }
