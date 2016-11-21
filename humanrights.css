@@ -61,5 +61,15 @@
     margin-left: 44%;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 50px solid #f00;
+    
+    margin-top: -2%;
 }
+
+#arrow1 {
+    border-top: 50px solid #DADADA;
+}
+
+#arrow2 {
+    border-top: 50px solid #EDEDED;
+}
+
