@@ -28,11 +28,6 @@ function showHideC() {
         $("#Education").css("color", "black");
         $("#Rights").css("color", "black");
         $("#HiddenHR").css("display", "none");
-        $('.e1').addClass("oversel");
-        $('.e2').addClass("oversel");
-        $('.r1').addClass("oversel");
-        $('.r2').addClass("oversel");
-        $('.r3').addClass("oversel");
     }
 }
 
