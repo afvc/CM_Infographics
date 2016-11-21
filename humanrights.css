@@ -1,39 +1,52 @@
-.housing {
-    width: 18vw;
+.left {
+    float: left;
+    width: 60%;
 }
 
-.health {
-    width: 18vw;
-}
-
-.education {
-    width: 18vw;
-}
-
-.integrity {
-    width: 18vw;
+.right {
+    float: right;
 }
 
 .freedomOf {
-    width: 38vw;
+    width: 35vw;
+}
+
+.education {
+    width: 15vw;
+    margin-top: 60%;
+}
+
+.health {
+    width: 15vw;
+}
+
+.housing {
+    width: 15vw;
+    margin-top: 40%;
+}
+
+.integrity {
+    width: 15vw;
+    margin-top: 60%;
 }
 
 .protectionFrom {
-    width: 30vw;
-}
-
-.lifeSafety {
-    width: 14vw;
+    width: 27vw;
 }
 
 .discrimination {
-    width: 25vw;
+    width: 22vw;
 }
 
 .opressionOf {
-    width: 32vw;
+    width: 29vw;
+    margin-top: 70%;
 }
 
 .conflicts {
-    width: 25vw;
+    width: 22vw;
+}
+
+.lifeSafety {
+    width: 11vw;
 }
