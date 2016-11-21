@@ -24,85 +24,85 @@
 .rotate1{
 
 @extend .rotate;
-  transform-origin: 14.5px 25px;
+  transform-origin: 16px 25px;
 }
 
 .rotate2{
 
 @include rotation(3200ms);
-  transform-origin: 35.5px 25px;
+  transform-origin: 37px 25px;
 }
 
 .rotate3{
 
 @include rotation(3080ms);
-  transform-origin: 56.5px 25px;
+  transform-origin: 58px 25px;
 }
 
 .rotate4{
 
 @include rotation(1080ms);
-  transform-origin: 76.5px 25px;
+  transform-origin: 79px 25px;
 }
 
 .rotate5{
 
 @extend .rotate;
-  transform-origin: 97.5px 25px;
+  transform-origin: 100px 25px;
 }
 
 .rotate6{
 
 @include rotation(3200ms);
-  transform-origin: 118.5px 25px;
+  transform-origin: 121px 25px;
 }
 
 .rotate7{
 
 @include rotation(3080ms);
-  transform-origin: 139.5px 25px;
+  transform-origin: 142.5px 25px;
 }
 
 .rotate8{
 
 @include rotation(1080ms);
-  transform-origin: 160.5px 25px;
+  transform-origin: 163.5px 25px;
 }
 
 .rotate9{
 
 @include rotation(3080ms);
-  transform-origin: 180.5px 25px;
+  transform-origin: 183px 25px;
 }
 
 .rotate10{
 
 @include rotation(1080ms);
-  transform-origin: 201px 25px;
+  transform-origin: 204.5px 25px;
 }
 
 .rotate11{
 
 @extend .rotate;
-  transform-origin: 222px 25px;
+  transform-origin: 225px 25px;
 }
 
 .rotate12{
 
 @include rotation(3200ms);
-  transform-origin: 242px 25px;
+  transform-origin: 246px 25px;
 }
 
 .rotate13{
 
 @include rotation(3080ms);
-  transform-origin: 263px 25px;
+  transform-origin: 267px 25px;
 }
 
 .rotate14{
 
 @include rotation(1080ms);
-  transform-origin: 283.5px 25px;
+  transform-origin: 288.5px 25px;
 }
 
 /*----ANIMAÇÃO_RODAS W1----*/
@@ -221,9 +221,9 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-    }
-    /* The actual popup */
-    .popup .popuptext {
+    /*}
+  
+    .popup .popuptext {*/
        display: none;
         width: 500px;
         background-color: $blue;
@@ -236,7 +236,7 @@
         margin-left: -250px;
     }
    
-    .popup:hover .popuptext{
+    .popup:hover {
         display: block;
         -webkit-animation: fadeIn 1s;
         animation: fadeIn 1s;
