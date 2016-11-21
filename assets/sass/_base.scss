@@ -40,6 +40,7 @@ ul li {
     margin: 5px;
 }
 
+ 
 .responsive--overlay {
     width: 100%;
     height: 100%;
@@ -56,7 +57,7 @@ ul li {
     }
 }
 
-
+ 
 /*------------------------------------*\
   #BODY
 \*------------------------------------*/
@@ -107,7 +108,7 @@ body {
 
 .bg__purple {
     @extend .bg;
-    background: rgb(19, 16, 29);
+    background: $purple;
 }
 
 .bg__blue {
@@ -120,10 +121,22 @@ body {
     background: $grey;
 }
 
+ 
+.bg__white {
+    @extend .bg;
+    background: white;
+}
 .bg__light {
     @extend .bg;
     background: $light;
 }
+
+
+.d{
+width: 100%;
+height: 100%;
+}
+
 
 .bg__red {
     @extend .bg;
@@ -134,7 +147,17 @@ body {
     margin-left: 30px;
     @include breakpoint ($min: sm) {
         margin-left: 0px;
-    }
+    }}
+ 
+.bg__grey_good {
+    @extend .bg;
+    background: $grey_good;
+}
+
+.bg__grey_bad {
+    @extend .bg;
+    background: $grey_bad;
+ 
 }
 
 
@@ -299,3 +322,5 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+

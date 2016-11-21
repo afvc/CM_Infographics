@@ -1,8 +1,6 @@
 
-     
 
 /*-----SWITCH_IMG-----*/
-
 
 $('#switch').click(clickSwitch());
 
@@ -11,13 +9,16 @@ function clickSwitch() {
         $('#switch').css("transform", "rotate(180deg)");
     }
     else {
-    $('#switch').css("transform","none");
+    $('#switch').css("transform","none" );
+        $("#HiddenEd").css("display", "none");
         $("#Education").css("color", "black");
         $("#Rights").css("color", "black");
-}
+        $("#HiddenHR").css("display", "none");
+    }
 }
 
 /*-----EDUCATION-----*/
+
 
 $(".HideCauses").on("click", showHideC);
 
