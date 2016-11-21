@@ -46,11 +46,12 @@
 	.st40{fill:#3267B0;}
 	.st41{fill:#2F204F;}
 	.st42{fill:#D01041;}
-	.st43{fill:#FFDE00;}
-	.st44{opacity:0.6;enable-background:new    ;}
-	.st45{fill:#7A3444;}
-	.st46{fill:#D6BF32;}
-	.st47{clip-path:url(#SVGID_2_);}
+	.st43{opacity:0.7;enable-background:new    ;}
+	.st44{fill:#FFDE00;}
+	.st45{opacity:0.6;enable-background:new    ;}
+	.st46{fill:#7A3444;}
+	.st47{fill:#D6BF32;}
+	.st48{clip-path:url(#SVGID_2_);}
 </style>
 <title>Ativo 11 1</title>
 <g id="Camada_2">
@@ -344,14 +345,14 @@
 		</g>
 		<g>
 			
-				<rect x="248" y="79.8" transform="matrix(0.9999 -1.533553e-02 1.533553e-02 0.9999 -1.4444 3.8453)" class="st2" width="4" height="32.6"/>
+				<rect x="248" y="79.8" transform="matrix(0.9999 -1.533526e-02 1.533526e-02 0.9999 -1.4443 3.8452)" class="st2" width="4" height="32.6"/>
 		</g>
 		<g>
 			<rect x="242.2" y="78.1" class="st2" width="123.5" height="4"/>
 		</g>
 		<g>
 			
-				<rect x="357.3" y="79.4" transform="matrix(0.9999 -1.533507e-02 1.533507e-02 0.9999 -1.4254 5.5212)" class="st2" width="4" height="32.6"/>
+				<rect x="357.3" y="79.4" transform="matrix(0.9999 -1.533480e-02 1.533480e-02 0.9999 -1.4253 5.5211)" class="st2" width="4" height="32.6"/>
 		</g>
 		<g class="st10">
 			<g>
@@ -468,7 +469,7 @@
 		</g>
 	</g>
 	<g id="opacidade">
-		<g class="st8">
+		<g class="st43">
 			<rect x="0.2" y="0.2" width="384" height="135.5"/>
 		</g>
 	</g>
@@ -479,62 +480,64 @@
 	</g>
 	<g id="luzes">
 		<g class="st8">
-			<circle class="st43" cx="369.7" cy="24.8" r="7"/>
+			<circle class="st44" cx="369.7" cy="24.8" r="7"/>
 		</g>
 		<g class="st8">
-			<circle class="st43" cx="15.2" cy="24.2" r="7"/>
+			<circle class="st44" cx="15.2" cy="24.2" r="7"/>
 		</g>
-		<g class="st44">
-			<circle class="st43" cx="157.9" cy="25.9" r="7"/>
-		</g>
-		<g>
-			<polygon class="st45" points="147.6,-0.4 131.4,24.7 184.5,24.7 169.4,-0.3 			"/>
-		</g>
-		<g class="st44">
-			<polygon class="st46" points="151,24.9 123.9,96.6 193.7,97 164.9,24.9 			"/>
-		</g>
-		<g class="st44">
-			<circle class="st43" cx="87.5" cy="25.9" r="7"/>
+		<g class="st45">
+			<circle class="st44" cx="157.9" cy="25.9" r="7"/>
 		</g>
 		<g>
-			<polygon class="st45" points="77.1,-0.4 60.9,24.7 114,24.7 98.9,-0.3 			"/>
+			<polygon class="st46" points="147.6,-0.4 131.4,24.7 184.5,24.7 169.4,-0.3 			"/>
 		</g>
-		<g class="st44">
-			<polygon class="st46" points="80.5,24.9 53.4,96.6 123.2,97 94.4,24.9 			"/>
+		<g class="st45">
+			<polygon class="st47" points="151,24.9 123.9,96.6 193.7,97 164.9,24.9 			"/>
 		</g>
-		<g class="st44">
-			<circle class="st43" cx="298.4" cy="25.9" r="7"/>
-		</g>
-		<g>
-			<polygon class="st45" points="288.1,-0.4 271.9,24.7 325,24.7 309.9,-0.3 			"/>
-		</g>
-		<g class="st44">
-			<polygon class="st46" points="291.5,24.9 264.4,96.6 334.2,97 305.4,24.9 			"/>
-		</g>
-		<g class="st44">
-			<circle class="st43" cx="228" cy="25.9" r="7"/>
+		<g class="st45">
+			<circle class="st44" cx="87.5" cy="25.9" r="7"/>
 		</g>
 		<g>
-			<polygon class="st45" points="217.6,-0.4 201.4,24.7 254.5,24.7 239.4,-0.3 			"/>
+			<polygon class="st46" points="77.1,-0.4 60.9,24.7 114,24.7 98.9,-0.3 			"/>
 		</g>
-		<g class="st44">
-			<polygon class="st46" points="221,24.9 193.9,96.6 263.7,97 234.9,24.9 			"/>
+		<g class="st45">
+			<polygon class="st47" points="80.5,24.9 53.4,96.6 123.2,97 94.4,24.9 			"/>
+		</g>
+		<g class="st45">
+			<circle class="st44" cx="298.4" cy="25.9" r="7"/>
+		</g>
+		<g>
+			<polygon class="st46" points="288.1,-0.4 271.9,24.7 325,24.7 309.9,-0.3 			"/>
+		</g>
+		<g class="st45">
+			<polygon class="st47" points="291.5,24.9 264.4,96.6 334.2,97 305.4,24.9 			"/>
+		</g>
+		<g class="st45">
+			<circle class="st44" cx="228" cy="25.9" r="7"/>
+		</g>
+		<g>
+			<polygon class="st46" points="217.6,-0.4 201.4,24.7 254.5,24.7 239.4,-0.3 			"/>
+		</g>
+		<g class="st45">
+			<polygon class="st47" points="221,24.9 193.9,96.6 263.7,97 234.9,24.9 			"/>
 		</g>
 		<g>
 			<g>
 				<g>
-					<defs>
-						<rect id="SVGID_1_" x="0.5" y="0.4" width="384" height="135.5"/>
-					</defs>
-					<clipPath id="SVGID_2_">
-						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-					</clipPath>
-					<g class="st47">
-						<g>
-							<polygon class="st45" points="359.5,-0.3 343.3,24.8 396.4,24.8 381.3,-0.2 							"/>
-						</g>
-						<g>
-							<polygon class="st45" points="5,-0.3 -11.2,24.8 41.8,24.8 26.8,-0.2 							"/>
+					<g>
+						<defs>
+							<rect id="SVGID_1_" x="0.5" y="0.4" width="384" height="135.5"/>
+						</defs>
+						<clipPath id="SVGID_2_">
+							<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st48">
+							<g>
+								<polygon class="st46" points="359.5,-0.3 343.3,24.8 396.4,24.8 381.3,-0.2 								"/>
+							</g>
+							<g>
+								<polygon class="st46" points="5,-0.3 -11.2,24.8 41.8,24.8 26.8,-0.2 								"/>
+							</g>
 						</g>
 					</g>
 				</g>
