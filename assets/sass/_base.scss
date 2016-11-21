@@ -1,7 +1,6 @@
 /*
  * BASE STYLES
  * ================================ */
- 
 
 //box-sizing model = margin and paddgin inside element so they don't increase width of component.
 *,
@@ -45,7 +44,6 @@ body {
     @extend .text;
 }
 
-
 .bg {
     margin-left: 70px;
     padding-left: 10vw;
@@ -70,14 +68,14 @@ body {
 .bg__blue {
     @extend .bg;
     background: $blue;
-    padding: 2vw;
 }
 
 .bg__grey {
     @extend .bg;
     background: $grey;
-    padding: 2vw;
 }
+
+
 /*------------------------------------*\
   #COLOR_SECTIONS
 \*------------------------------------*/
@@ -243,3 +241,5 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+
