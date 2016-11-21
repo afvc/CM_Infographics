@@ -19,7 +19,11 @@ body {
 }
 
 .hidden {
+<<<<<<< HEAD
 display: none;
+=======
+    display: none;
+>>>>>>> dcccf7592d4ae4fa624ffaddc193f07f9f484595
 }
 
 #HiddenEd {
@@ -38,6 +42,22 @@ display: none;
 ul li {
     list-style-type: none;
     margin: 5px;
+}
+
+.responsive--overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    background: $red;
+    display:none;
+    z-index: 1000;
+    @include breakpoint ($min: sm) {
+       display: block;
+    }
+    @include breakpoint ($min: xs) {
+       display: block;
+    }
 }
 
 
@@ -93,13 +113,13 @@ body {
     @include breakpoint ($min: lg) {
         padding: 6vh;
     }
-    
-     @include breakpoint ($min: xl) {
+    @include breakpoint ($min: xl) {
         padding: 8vh;
     }
-    
     @extend .bg;
-    background: rgb(19,16,29);
+    background: rgb(19,
+    16,
+    29);
     background-image: url("box.svg");
     background-size: cover;
     background-position: center;
@@ -121,7 +141,6 @@ body {
     background: $grey;
 }
 
-
 .bg__light {
     @extend .bg;
     background: $light;
@@ -132,12 +151,14 @@ body {
     background: $red;
 }
 
-.text--margin__small{
-margin-left: 30px;
-     @include breakpoint ($min: sm) {
-   margin-left: 0px; 
+.text--margin__small {
+    margin-left: 30px;
+    @include breakpoint ($min: sm) {
+        margin-left: 0px;
+    }
 }
-}
+
+
 /*------------------------------------*\
   #COLOR_SECTIONS
 \*------------------------------------*/
@@ -248,7 +269,7 @@ margin-left: 30px;
     }
 }
 
- 
+
 /*------------------------------------*\
   #LINKS
 \*------------------------------------*/
@@ -263,7 +284,6 @@ a {
         color: $white;
     }
 }
-
 
 .margin__top__neg {
     margin-top: -8vh;
