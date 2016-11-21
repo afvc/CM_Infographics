@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+  #SVG
+\*------------------------------------*/
+
+.cls-1__small,
+.cls-2__small {
+    stroke: #2f204f;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.5px;
+    fill: rgb(178, 178, 178);
+}
+
+.cls-1__small__tip {
+    @extend .cls-1__small;
+    fill: #bebe17;
+}
+
+.cls-1__small__nofill {
+    @extend .cls-1__small;
+    fill: none;
+}
+
+.cls-1__small__white {
+    @extend .cls-1__small;
+    fill: $light;
+}
+
+.cls-1__small__brown {
+    @extend .cls-1__small;
+    fill: #4d3c17;
+}
+
+.cls-1__small__blue {
+    @extend .cls-1__small;
+    fill: $dblue;
+}
+
+.cls-1__small__purple {
+    @extend .cls-1__small;
+    fill: rgb(19, 16, 29);
+}
+ 
+
+.cls-2__small__bg {
+    stroke-width: 0;
+    @extend .cls-1__small;
+    fill: #2f204f;
+}
+
+.fill__opacity {
+    animation-name: fill;
+    animation-duration: 7200ms;
+    animation-iteration-count: infinite;
+}
+
+.fill__opacity__2 {
+    animation-name: fill;
+    animation-duration: 8450ms;
+    @extend .fill__opacity;
+}
+
+.fill__opacity__3 {
+    animation-name: fill;
+    animation-duration: 5950ms;
+    @extend .fill__opacity;
+}
+
+/*------------------------------------*\
+  #icons
+\*------------------------------------*/
+
+.icon-svg {
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+    margin: 0 2vw 0 2vw;
+}
+       
