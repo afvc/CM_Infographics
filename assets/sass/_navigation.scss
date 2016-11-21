@@ -58,3 +58,13 @@
         margin: 2vh auto auto 3vw;
     }
 }
+
+.numberCircle.selected {
+    color: $white;
+    border: 2px solid $white;
+}
+
+.numberCircle.oversel {
+    color: $black;
+    border: 2px solid $black;
+}

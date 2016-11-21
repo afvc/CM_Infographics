@@ -1,7 +1,7 @@
 
 /*scrollmagic*/
 
-#E1, #civil {
+#E1 {
     opacity: 0;
     transition: all 0.5s ease-in;
     transform: translateY(15%);
@@ -11,7 +11,7 @@
     padding-bottom: 15%;
 }
 
-#E1.fade, #civil.fade {
+#E1.fade{
     opacity: 1;
     transform: translateY(0%);
 }

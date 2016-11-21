@@ -43,15 +43,28 @@ $(document).ready(function(){
 	.addTo(controller);
 
 	var pinIntroScene12 = new ScrollMagic.Scene({
-		triggerElement: '#civil',
-        triggerHook: 0.7
+		triggerElement: '#War',
+        duration: '80%'
 	})
-	.setClassToggle('#civil', "fade")
+	.setClassToggle('.w1', "selected")
 	.addTo(controller);
 
+	var pinIntroScene13 = new ScrollMagic.Scene({
+		triggerElement: '#AboutHidden',
+        duration: '50%'
+	})
+	.setClassToggle('.w2', "selected")
+	.addTo(controller);
+
+	var pinIntroScene19 = new ScrollMagic.Scene({
+		triggerElement: '#WarConsequences',
+        duration: '100%'
+	})
+	.setClassToggle('.w3', "selected")
+	.addTo(controller);
 });
 
-    $( "#graph" ).scroll(function() {
+$( "#graph" ).scroll(function() {
   $( "p" ).append("oi");
 });
 
