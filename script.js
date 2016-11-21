@@ -11,7 +11,7 @@ function clickSwitch() {
         $('#switch').css("transform", "rotate(180deg)");
     }
     else {
-    $('#switch').css("transform","none" );
+    $('#switch').css("transform","none");
         $("#Education").css("color", "black");
         $("#Rights").css("color", "black");
 }

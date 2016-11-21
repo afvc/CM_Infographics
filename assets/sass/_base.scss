@@ -105,23 +105,6 @@ body {
     }
 }
 
-.bg__boxes {
-    @include breakpoint ($min: lg) {
-        padding: 6vh;
-    }
-    @include breakpoint ($min: xl) {
-        padding: 8vh;
-    }
-    @extend .bg;
-    background: rgb(19,
-    16,
-    29);
-    background-image: url("box.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .bg__purple {
     @extend .bg;
     background: rgb(19, 16, 29);
@@ -214,6 +197,18 @@ body {
     @include breakpoint($min:xl) {
         font-size: map-deep-get($typescale, 'heading1', 'lg');
     }
+}
+
+.titleBox {
+    font-family: BoldFont;
+    color: $black;
+    font-size: 2vw;
+    padding: 40px;
+    @extend .bg;
+    background-image: url("../images/box2.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .subtitle {
