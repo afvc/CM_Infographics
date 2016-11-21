@@ -31,7 +31,6 @@ ul li {
     margin: 5px;
 }
 
-
 /*------------------------------------*\
   #BODY
 \*------------------------------------*/
@@ -73,6 +72,16 @@ body {
 .bg__grey {
     @extend .bg;
     background: $grey;
+}
+
+.bg__grey_good {
+    @extend .bg;
+    background: $grey_good;
+}
+
+.bg__grey_bad {
+    @extend .bg;
+    background: $grey_bad;
 }
 
 
