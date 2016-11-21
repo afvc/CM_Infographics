@@ -115,7 +115,9 @@ body {
     @extend .bg;
     background: $grey;
 }
-
+.text--margin__small{
+margin-left: 30px;
+}
 
 /*------------------------------------*\
   #COLOR_SECTIONS

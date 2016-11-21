@@ -1,15 +1,5 @@
-/*-----POPUP-----*/
-       $(".server-signed-info-js").on("click", function () {
-      var popup = document.getElementById('server-signed-content-js');
-     popup.classList.toggle('show');
-     })
-   
-     $(".keys-help-popup-js").on("click", function () {
-    var popup = document.getElementById('keys-help-content-js');
-      popup.classList.toggle('show');
-   })
- });
 
+     
 
 /*-----SWITCH_IMG-----*/
 $('#switch').click(function () {

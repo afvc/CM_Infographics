@@ -224,7 +224,7 @@
     }
     /* The actual popup */
     .popup .popuptext {
-        visibility: hidden;
+       display: none;
         width: 500px;
         background-color: $blue;
         color: #fff;
@@ -235,13 +235,14 @@
         z-index: 1;
         margin-left: -250px;
     }
-    /* Toggle this class - hide and show the popup */
-    .popup .show {
-        visibility: visible;
+   
+    .popup:hover .popuptext{
+        display: block;
         -webkit-animation: fadeIn 1s;
         animation: fadeIn 1s;
         padding: 10px;
     }
+
     /* Add animation (fade in the popup) */
     @-webkit-keyframes fadeIn {
         from {
