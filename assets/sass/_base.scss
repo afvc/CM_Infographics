@@ -136,10 +136,21 @@ body {
     background: $grey;
 }
 
+.bg__white {
+    @extend .bg;
+    background: white;
+}
 .bg__light {
     @extend .bg;
     background: $light;
 }
+
+
+.d{
+width: 100%;
+height: 100%;
+}
+
 
 .bg__red {
     @extend .bg;
