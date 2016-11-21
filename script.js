@@ -2,24 +2,29 @@
      
 
 /*-----SWITCH_IMG-----*/
-$('#switch').click(function () {
-    if ($(this).css("transform") == 'none') {
-        $(this).css("transform", "rotate(180deg)");
+
+
+$('#switch').click(clickSwitch());
+
+function clickSwitch() {
+    if ($('#switch').css("transform") == 'none') {
+        $('#switch').css("transform", "rotate(180deg)");
     }
     else {
-    $(this).css("transform","none" );
+    $('#switch').css("transform","none" );
         $("#HiddenEd").css("display", "none");
         $("#Education").css("color", "black");
         $("#Rights").css("color", "black");
         $("#HiddenHR").css("display", "none");
 }
-});
+}
 
 /*-----EDUCATION-----*/
 
-$("#HideCauses").on("click", showHideC);
+$(".HideCauses").on("click", showHideC);
 
 function showHideC() {
+    clickSwitch();
     if ($("#WarHiddenCauses").css("display") == "none") {
         $("#WarHiddenCauses").css("display", "block");
     } else {
