@@ -44,6 +44,7 @@
     transform: translateX(167%);
 }
 
+
 /*----Infringed----*/
 
 .discrimination {
@@ -59,12 +60,13 @@
 
 .conflicts {
     width: 22vw;
-    transform: translateY(-10%);
+    transform: translateY(30%);
 }
 
 .lifeSafety {
     width: 11vw;
 }
+
 
 /*----Arrows scroll----*/
 
@@ -84,8 +86,9 @@
 
 .arrow2 {
     border-top: 50px solid #EDEDED;
-    transform: translateY(-100%);
+    transform: translateY(-80%);
 }
+
 
 /*----Animations----*/
 
@@ -98,4 +101,3 @@
     transition: all 1s ease-in;
     transform: translateY(0%);
 }
-
