@@ -7,7 +7,7 @@ $(document).ready(function(){
 		triggerHook: 1,
 		duration: '200%'
 	})
-	.setTween(TweenMax.from('.bcg', 1, {y: '-50%', ease:Power0.easeNone}))
+	.setTween(TweenMax.from('.bcg', 1, {y: '-60%', ease:Power0.easeNone}))
 	.addTo(controller);
 
 

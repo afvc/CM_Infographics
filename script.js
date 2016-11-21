@@ -10,10 +10,6 @@ function clickSwitch() {
     }
     else {
     $('#switch').css("transform","none" );
-        $("#HiddenEd").css("display", "none");
-        $("#Education").css("color", "black");
-        $("#Rights").css("color", "black");
-        $("#HiddenHR").css("display", "none");
     }
 }
 
@@ -28,6 +24,15 @@ function showHideC() {
         $("#WarHiddenCauses").css("display", "block");
     } else {
         $("#WarHiddenCauses").css("display", "none");
+        $("#HiddenEd").css("display", "none");
+        $("#Education").css("color", "black");
+        $("#Rights").css("color", "black");
+        $("#HiddenHR").css("display", "none");
+        $('.e1').addClass("oversel");
+        $('.e2').addClass("oversel");
+        $('.r1').addClass("oversel");
+        $('.r2').addClass("oversel");
+        $('.r3').addClass("oversel");
     }
 }
 
