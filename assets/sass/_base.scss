@@ -122,9 +122,11 @@ height: 100%;
 }
 .text--margin__small {
     margin-left: 30px;
-    @include breakpoint ($min: sm) {
-        margin-left: 0px;
-    }}
+ }
+
+.text--nmargin__small {
+    margin-left: 30px;
+ }
  
 .bg__grey_good {
     @extend .bg;

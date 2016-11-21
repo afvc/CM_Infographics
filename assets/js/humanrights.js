@@ -56,6 +56,16 @@ $(document).ready(function () {
         .addTo(controller);
 
     var introfreedomOf = new ScrollMagic.Scene({
+<<<<<<< HEAD
+=======
+            triggerElement: '.opressionOf',
+            triggerHook: 0.7
+        })
+        .setClassToggle('.opressionOf', "fadeSides")
+        .addTo(controller);
+
+    var introfreedomOf = new ScrollMagic.Scene({
+>>>>>>> master
             triggerElement: '.conflicts',
             triggerHook: 0.7
         })
