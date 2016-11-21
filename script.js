@@ -77,7 +77,7 @@ function showEd() {
 
         var pinIntroScene15 = new ScrollMagic.Scene({
             triggerElement: '#E2',
-            duration: '500%'
+            duration: '550%'
         })
         .setClassToggle('.e2', "selected")
         .addTo(controller);

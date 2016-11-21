@@ -7,8 +7,11 @@
     transform: translateY(15%);
 }
 
-#civil {
-    padding-bottom: 15%;
+#lockers {
+    position: absolute;
+    width: 115%;
+    z-index: -10;
+    left: -8%;
 }
 
 #E1.fade{
@@ -30,12 +33,22 @@
     transform-origin: center center;
 }
 
+#civil {
+    padding-bottom: 7%;
+}
+
+#board {
+    width: 60%;
+    position: absolute;
+    z-index: -1;
+    left: 10%;
+    top: 50%;
+}
+
 #textside{
     width: 50%;
     text-align: left;
-    background: #3F3679;
     color: white;
-    border: 3px solid #2A1D52;
     padding: 15px;
     margin: 15%;
 }
@@ -73,7 +86,7 @@
 .bcg_parallax {
     padding: 60px 0;
     color: #fff;
-    background-color: #77111A;
+    background-color: #971B1E;
     text-align: center;
     position: relative;
     overflow: hidden;
