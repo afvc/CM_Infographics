@@ -42,7 +42,6 @@ function showHiddenEd() {
     if ($("#HiddenEd").css("display") == "none") {
         $("#HiddenEd").css("display", "block");
         $("#Education").css("color", "white");
-        $("#WarHiddenCauses").css("display", "block");
     } else {
         $("#HiddenEd").css("display", "none");
         $("#Education").css("color", "black");
@@ -53,7 +52,6 @@ function showEd() {
     if ($("#HiddenEd").css("display") == "none") {
         $("#HiddenEd").css("display", "block");
         $("#Education").css("color", "white");
-        $("#WarHiddenCauses").css("display", "block");
     }
 }
 
@@ -66,7 +64,6 @@ function showHiddenHR() {
     if ($("#HiddenHR").css("display") == "none") {
         $("#HiddenHR").css("display", "block");
         $("#Rights").css("color", "white");
-        $("#WarHiddenCauses").css("display", "block");
     } else {
         $("#Rights").css("color", "black");
         $("#HiddenHR").css("display", "none");
@@ -78,7 +75,6 @@ function showHRs() {
     if ($("#HiddenHR").css("display") == "none") {
         $("#HiddenHR").css("display", "block");
         $("#Rights").css("color", "white");
-        $("#WarHiddenCauses").css("display", "block");
     }
 }
 
