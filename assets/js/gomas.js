@@ -8,7 +8,6 @@ $(document).ready(function(){
 		duration: '200%'
 	})
 	.setTween(TweenMax.from('.bcg', 1, {y: '-50%', ease:Power0.easeNone}))
-    .addIndicators()
 	.addTo(controller);
 
 
@@ -17,7 +16,6 @@ $(document).ready(function(){
         triggerHook: 0.8
 	})
 	.setClassToggle('#E1', "fade")
-    .addIndicators()
 	.addTo(controller);
 
 	var pinIntroScene9 = new ScrollMagic.Scene({
@@ -26,7 +24,6 @@ $(document).ready(function(){
         duration: '10%'
 	})
 	.setClassToggle('#boneco', "size")
-    .addIndicators()
 	.addTo(controller);
 
 	var pinIntroScene10 = new ScrollMagic.Scene({
@@ -35,7 +32,6 @@ $(document).ready(function(){
         duration: '20%'
 	})
 	.setClassToggle('#boneco-2', "size")
-    .addIndicators()
 	.addTo(controller);
 
 	var pinIntroScene11 = new ScrollMagic.Scene({
@@ -44,17 +40,32 @@ $(document).ready(function(){
         duration: '30%'
 	})
 	.setClassToggle('#boneco-3', "size")
-    .addIndicators()
 	.addTo(controller);
 
 	var pinIntroScene12 = new ScrollMagic.Scene({
-		triggerElement: '#civil',
-        triggerHook: 0.7
+		triggerElement: '#War',
+        duration: '80%'
 	})
-	.setClassToggle('#civil', "fade")
-    .addIndicators()
+	.setClassToggle('.w1', "selected")
 	.addTo(controller);
 
+	var pinIntroScene13 = new ScrollMagic.Scene({
+		triggerElement: '#AboutHidden',
+        duration: '50%'
+	})
+	.setClassToggle('.w2', "selected")
+	.addTo(controller);
+
+	var pinIntroScene19 = new ScrollMagic.Scene({
+		triggerElement: '#WarConsequences',
+        duration: '100%'
+	})
+	.setClassToggle('.w3', "selected")
+	.addTo(controller);
+});
+
+$( "#graph" ).scroll(function() {
+  $( "p" ).append("oi");
 });
 
 
