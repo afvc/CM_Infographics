@@ -1,0 +1,263 @@
+/*----RODAS W1----*/
+
+.rotate {
+ 
+     -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.rotate1{
+
+@extend .rotate;
+  transform-origin: 16px 25px;
+}
+
+.rotate2{
+
+@include rotation(3200ms);
+  transform-origin: 37px 25px;
+}
+
+.rotate3{
+
+@include rotation(3080ms);
+  transform-origin: 58px 25px;
+}
+
+.rotate4{
+
+@include rotation(1080ms);
+  transform-origin: 79px 25px;
+}
+
+.rotate5{
+
+@extend .rotate;
+  transform-origin: 100px 25px;
+}
+
+.rotate6{
+
+@include rotation(3200ms);
+  transform-origin: 121px 25px;
+}
+
+.rotate7{
+
+@include rotation(3080ms);
+  transform-origin: 142.5px 25px;
+}
+
+.rotate8{
+
+@include rotation(1080ms);
+  transform-origin: 163.5px 25px;
+}
+
+.rotate9{
+
+@include rotation(3080ms);
+  transform-origin: 183px 25px;
+}
+
+.rotate10{
+
+@include rotation(1080ms);
+  transform-origin: 204.5px 25px;
+}
+
+.rotate11{
+
+@extend .rotate;
+  transform-origin: 225px 25px;
+}
+
+.rotate12{
+
+@include rotation(3200ms);
+  transform-origin: 246px 25px;
+}
+
+.rotate13{
+
+@include rotation(3080ms);
+  transform-origin: 267px 25px;
+}
+
+.rotate14{
+
+@include rotation(1080ms);
+  transform-origin: 288.5px 25px;
+}
+
+/*----ANIMAÇÃO_RODAS W1----*/
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/*----ANIMAÇÃO_FILL----*/
+
+@keyframes fill{
+    20%{
+    fill-opacity:0;
+    }
+    
+    100%{
+    fill-opacity:1;
+    
+    }
+}
+
+
+
+/*----ANIMAÇÃO_TITULOS----*/
+.link__anim {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	line-height: 1;
+	display: inline-block;
+    z-index: 100;
+}
+
+ 
+/* Kumya */
+.link--kumya {
+	overflow: hidden;
+	padding: 10px 10px 0;
+	color: rgba(255, 255, 255, 0.47);
+}
+
+.link--kumya:hover {
+	color: white;
+}
+
+.link--kumya::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background: $red;
+	-webkit-transform: translate3d(101%,0,0);
+	transform: translate3d(101%,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kumya:hover::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.link--kumya span {
+	display: block;
+	position: relative;
+}
+
+.link--kumya span::before {
+	content: attr(data-letters);
+	position: absolute;
+	color: #fff;
+	left: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0%;
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kumya:hover span::before {
+	width: 100%;
+}
+
+
+
+ /*-----#POP-UP----*/
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    /*}
+  
+    .popup .popuptext {*/
+       display: none;
+        width: 500px;
+        background-color: $blue;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        margin-left: -250px;
+    }
+   
+    .popup:hover {
+        display: block;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+        padding: 10px;
+    }
+
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+     
