@@ -64,16 +64,7 @@ $(document).ready(function(){
 	.addTo(controller);
 });
 
-$( "#graph" ).scroll(function() {
-  $( "p" ).append("oi");
-});
-
-
-
-
-
-
-
+ 
 
 
 
