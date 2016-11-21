@@ -1,10 +1,10 @@
 /*----------#NAVBAR--------------------------*/
-
 .nav-fixed {
     @extend .smalltext;
     position: fixed;
     height: 100vh;
     width: 70px;
+    z-index: 9999;
     /*overflow-y: scroll;*/
     a {
         &:hover {
@@ -25,9 +25,6 @@
         }
     }
 }
-
-
-
 .numberCircle {
     border-radius: 50%;
     width: 36px;
@@ -38,7 +35,9 @@
         width: 43px;
         height: 43px;
     }
+    
     border: 2px solid $black;
+    
     &:hover {
         border: 2px solid $white;
     }
@@ -55,4 +54,12 @@
         padding: 1vw;
         margin: 2vh auto auto 3vw;
     }
+}
+.numberCircle.selected {
+    color: $white;
+    border: 2px solid $white;
+}
+.numberCircle.oversel {
+    color: $black;
+    border: 2px solid $black;
 }

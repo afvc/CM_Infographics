@@ -1,0 +1,219 @@
+
+/*scrollmagic*/
+
+#E1 {
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    transform: translateY(15%);
+}
+
+#lockers {
+    position: absolute;
+    width: 115%;
+    z-index: -10;
+    left: -8%;
+}
+
+#E1.fade{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+#Layer_1 {
+    width: 70%;
+    padding: 50px;
+}
+
+#boneco, #boneco-2, #boneco-3 {
+    transition: all 0.3s ease-in;
+}
+
+#boneco.size, #boneco-2.size, #boneco-3.size {
+    transform: scale(1.2);
+    transform-origin: center center;
+}
+
+#civil {
+    padding-bottom: 7%;
+}
+
+#board {
+    width: 60%;
+    position: absolute;
+    z-index: -1;
+    left: 10%;
+    top: 50%;
+}
+
+#textside{
+    width: 50%;
+    text-align: left;
+    color: white;
+    padding: 15px;
+    margin: 15%;
+}
+
+#corpo {
+    animation-name: move;
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transform-origin: top;
+}
+
+@keyframes move {
+    from {
+    transform: rotate(-60deg);
+    }
+    to {
+    transform: rotate(45deg);
+    }
+}
+
+#Layer_2 {
+    position: absolute;
+    transform: translateY(-85%) translateX(50%);
+    width: 40%;
+}
+
+#genderTitle{
+    padding: 20px;
+    color: white;
+    width: 100%;
+}
+
+.bcg_parallax {
+    padding: 60px 0;
+    color: #fff;
+    background-color: #029748;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bcg {
+    background: url('../images/Ativo%2013.svg') no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 190%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.content-wrapper {
+    z-index: 2;
+}
+
+.levels {
+    z-index: 100!important;
+    position: relative;
+    height: 100%;
+}
+
+a #graph p{
+    background: #2A1D52;
+    margin: 0px 10%;
+    padding: 15px 0;
+    padding-right: 8%;
+    color: #fff!important;
+}
+
+#graph{
+    text-align: center;
+    background: #E0E0E0;
+    height: 1000px;
+    margin-bottom: 192%;
+}
+
+#less.graph{
+    padding: 0px;
+    /* The image used */
+    background-image: url('../images/genders_less.png');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#high.graph{
+    /* The image used */
+    background-image: url('../images/genders_high.png');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#college.graph{
+    /* The image used */
+    background-image: url('../images/genders_college.png');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#associate.graph{
+    /* The image used */
+    background-image: url('../images/genders_associate.png');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bachelor.graph{
+    /* The image used */
+    background-image: url('../images/genders_bachelor.png');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#master.graph{
+    /* The image used */
+    background-image: url('../images/genders_master.png');
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#E2 img {
+    width: 25%!important;
+}
