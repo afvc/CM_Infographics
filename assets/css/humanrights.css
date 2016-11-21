@@ -1,0 +1,101 @@
+.leftCont {
+    float: left;
+    width: 60%;
+}
+
+.rightCont {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.freedomOf {
+    width: 35vw;
+    transform: translateX(-150%);
+}
+
+.health {
+    width: 15vw;
+    transform: translateX(167%);
+}
+
+.housing {
+    width: 15vw;
+    margin-top: 40%;
+    transform: translateX(-233%);
+}
+
+.protectionFrom {
+    width: 27vw;
+    transform: translateX(167%);
+}
+
+.integrity {
+    width: 15vw;
+    margin-top: 60%;
+    transform: translateX(-233%);
+}
+
+.education {
+    width: 15vw;
+    margin-top: 60%;
+    transform: translateX(167%);
+}
+
+/*----Infringed----*/
+
+.discrimination {
+    width: 22vw;
+    transform: translateX(-190%);
+}
+
+.opressionOf {
+    width: 29vw;
+    margin-top: 70%;
+    transform: translateX(167%);
+}
+
+.conflicts {
+    width: 22vw;
+    transform: translateY(-10%);
+}
+
+.lifeSafety {
+    width: 11vw;
+}
+
+/*----Arrows scroll----*/
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    margin-left: 44%;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    margin-top: -2%;
+}
+
+.arrow1 {
+    border-top: 50px solid #DADADA;
+    transform: translateY(-100%);
+}
+
+.arrow2 {
+    border-top: 50px solid #EDEDED;
+    transform: translateY(-100%);
+}
+
+/*----Animations----*/
+
+.fadeSides {
+    transition: all 1s ease-in;
+    transform: translateX(0%);
+}
+
+.fadeTop {
+    transition: all 1s ease-in;
+    transform: translateY(0%);
+}
+

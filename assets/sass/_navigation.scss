@@ -1,4 +1,5 @@
 /*----------#NAVBAR--------------------------*/
+
 .nav-fixed {
     @extend .smalltext;
     position: fixed;
@@ -25,19 +26,18 @@
         }
     }
 }
+
 .numberCircle {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    margin: 60px auto 60px auto;
+    margin: 64% auto 64% auto;
     padding: 8px;
     @include breakpoint ($min: xl) {
         width: 43px;
         height: 43px;
     }
-    
     border: 2px solid $black;
-    
     &:hover {
         border: 2px solid $white;
     }
@@ -55,10 +55,12 @@
         margin: 2vh auto auto 3vw;
     }
 }
+
 .numberCircle.selected {
     color: $white;
     border: 2px solid $white;
 }
+
 .numberCircle.oversel {
     color: $black;
     border: 2px solid $black;
