@@ -21,9 +21,17 @@
     transform: translateX(167%);
 }
 
+.health second {
+    transform: translateX(100%);
+}
+
 .housing {
     width: 15vw;
     margin-top: 40%;
+    transform: translateX(-233%);
+}
+
+.housing second {
     transform: translateX(-233%);
 }
 
@@ -65,6 +73,7 @@
 
 .lifeSafety {
     width: 11vw;
+    transform: translateX(-190%);
 }
 
 
