@@ -59,6 +59,7 @@
 
 .conflicts {
     width: 22vw;
+    transform: translateY(-10%);
 }
 
 .lifeSafety {
@@ -76,12 +77,12 @@
     margin-top: -2%;
 }
 
-#arrow1 {
+.arrow1 {
     border-top: 50px solid #DADADA;
     transform: translateY(-100%);
 }
 
-#arrow2 {
+.arrow2 {
     border-top: 50px solid #EDEDED;
     transform: translateY(-100%);
 }
@@ -97,3 +98,4 @@
     transition: all 1s ease-in;
     transform: translateY(0%);
 }
+

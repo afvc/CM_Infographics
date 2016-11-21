@@ -6,7 +6,7 @@ $(document).ready(function () {
             triggerElement: '.freedomOf',
             triggerHook: 0.8
         })
-        .setClassToggle('.freedomOf', "fade")
+        .setClassToggle('.freedomOf', "fadeSides")
         //.addIndicators()
         .addTo(controller);
 
@@ -56,19 +56,36 @@ $(document).ready(function () {
         .addTo(controller);
 
     var introfreedomOf = new ScrollMagic.Scene({
-            triggerElement: '.opressionOf',
+            triggerElement: '.conflicts',
             triggerHook: 0.7
         })
-        .setClassToggle('.opressionOf', "fadeSides")
+        .setClassToggle('.conflicts', "fadeTop")
+        .addTo(controller);
+
+    var introfreedomOf = new ScrollMagic.Scene({
+            triggerElement: '.arrow2',
+            triggerHook: 0.3
+        })
+        .setClassToggle('.arrow2', "fadeTop")
+        .addIndicators()
         .addTo(controller);
 
     /*----Arrows scroll----*/
 
     var introfreedomOf = new ScrollMagic.Scene({
             triggerElement: '.arrow1',
-            triggerHook: 0.7
+            triggerHook: 0.5
         })
         .setClassToggle('.arrow1', "fadeTop")
         .addIndicators()
         .addTo(controller);
+
+    var introfreedomOf = new ScrollMagic.Scene({
+            triggerElement: '.arrow2',
+            triggerHook: 0.5
+        })
+        .setClassToggle('.arrow2', "fadeTop")
+        .addIndicators()
+        .addTo(controller);
+
 });
