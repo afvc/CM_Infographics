@@ -67,7 +67,6 @@ function showHiddenHR() {
     } else {
         $("#Rights").css("color", "black");
         $("#HiddenHR").css("display", "none");
-
     }
 }
 
