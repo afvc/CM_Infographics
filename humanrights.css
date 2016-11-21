@@ -1,10 +1,14 @@
-.left {
+.leftCont {
     float: left;
     width: 60%;
 }
 
-.right {
+.rightCont {
     float: right;
+}
+
+.center {
+    text-align: center;
 }
 
 .freedomOf {
@@ -49,4 +53,13 @@
 
 .lifeSafety {
     width: 11vw;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    margin-left: 44%;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #f00;
 }
