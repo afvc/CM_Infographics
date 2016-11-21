@@ -12,10 +12,8 @@ function clickSwitch() {
     }
     else {
     $('#switch').css("transform","none" );
-        $("#HiddenEd").css("display", "none");
         $("#Education").css("color", "black");
         $("#Rights").css("color", "black");
-        $("#HiddenHR").css("display", "none");
 }
 }
 
