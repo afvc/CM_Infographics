@@ -35,17 +35,17 @@ function showHideC() {
     }
 }
 
-
+$(".EdBox").on("click", showHiddenEd);
 $(".Ed").on("click", showEd);
 
 function showHiddenEd() {
     if ($("#HiddenEd").css("display") == "none") {
         $("#HiddenEd").css("display", "block");
         $("#Education").css("color", "white");
+        $("#WarHiddenCauses").css("display", "block");
     } else {
         $("#HiddenEd").css("display", "none");
         $("#Education").css("color", "black");
-
     }
 }
 
@@ -59,7 +59,7 @@ function showEd() {
 
 /*-----HUMAN RIGHTS-----*/
 
-$("#Rights").on("click", showHiddenHR);
+$(".HRBox").on("click", showHiddenHR);
 $(".HR").on("click", showHRs);
 
 function showHiddenHR() {
