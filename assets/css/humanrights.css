@@ -110,3 +110,9 @@
     transition: all 1s ease-in;
     transform: translateY(0%);
 }
+
+
+.bcg_parallax2 {
+    background: url(/assets/images/HRsvg/pessoas.svg);
+    background-blend-mode: multiply;
+}
