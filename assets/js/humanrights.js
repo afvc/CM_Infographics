@@ -85,8 +85,36 @@ $(document).ready(function () {
             triggerHook: 1
         })
         .setClassToggle('.conflicts', "fadeTop")
-        .addIndicators()
         .addTo(controller);
 
-    
+
+    var intro_lifeSafety = new ScrollMagic.Scene({
+            triggerElement: '.lifeSafety',
+            triggerHook: 1
+        })
+        .setClassToggle('.lifeSafety', "fadeSides")
+        .addTo(controller);
+
+
+    var intro_conflicts = new ScrollMagic.Scene({
+            triggerElement: '.conflicts',
+            triggerHook: 1
+        })
+        .setClassToggle('.conflicts', "fadeTop")
+        .addTo(controller);
+
+    var intro_health2 = new ScrollMagic.Scene({
+            triggerElement: '.health.second',
+            triggerHook: 0.4
+        })
+        .setClassToggle('.health.second', "fadeSides")
+        .addTo(controller);
+
+    var intro_housing2 = new ScrollMagic.Scene({
+            triggerElement: '.housing.second',
+            triggerHook: 0.7
+        })
+        .setClassToggle('.housing.second', "fadeSides")
+        .addTo(controller);
+
 });
