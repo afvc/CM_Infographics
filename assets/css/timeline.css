@@ -81,7 +81,7 @@
 }
 
 .cd-timeline-img {
-    background: #D7D4DF;
+    background: darkred;
 }
 
 
@@ -211,7 +211,6 @@
 .cd-timeline-content .cd-date {
     float: left;
     padding: .8em 0;
-    opacity: .7;
 }
 
 .cd-timeline-content::before {
